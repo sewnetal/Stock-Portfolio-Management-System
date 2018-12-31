@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SpmsList from './spms/SpmsList';
 import './App.css';
 import axios from "axios";
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 
@@ -187,7 +188,7 @@ class App extends Component {
             <div className = "container">
 
                 <input className="add" onClick={this.createPortfolio} type="button" value="Add new portfolio"/>
-                <SpmsList portfolio ={this.state.portfolio}
+               <SpmsList  portfolio ={this.state.portfolio}
                           removeportfolio = {this.removeportfolio}
                           name ={this.state.name}
                           addstocks ={this.addstocks}
