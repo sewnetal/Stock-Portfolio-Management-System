@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.container{
+  width: auto;
+  padding: 30px 30px 15px 30px;
+  margin: 10px auto;
+  background: #e0f8f5;
+  border-radius: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+
+  border: 0px solid black;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.col-3 input{
+  background: #2A88AD;
+  padding: 8px 30px 8px 20px;
+  margin-left: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+  font: normal 30px 'Bitter', serif;
+  -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  border: 1px solid #257C9E;
+  font-size: 15px;
+}
+.col-3 button{
+
+  float: right;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+  font: normal 30px 'Bitter', serif;
+  -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  border: 1px solid #257C9E;
+  font-size: 15px;
+}
+.col-3 a{
+  margin-left: 50px;
+}
+
+.add{
+  background: #2A88AD;
+  padding: 8px 30px 8px 20px;
+  margin-left: 100px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+  font: normal 30px 'Bitter', serif;
+  -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  border: 1px solid #257C9E;
+  font-size: 15px;
+}
+
+.table-bordered{
+  border:1px solid #dee2e6
+}
+.table-bordered td,
+.table-bordered th{
+  border:1px solid #dee2e6
+}
+.table-bordered thead td,
+.table-bordered thead th{
+  border-bottom-width:2px
+}
+.table{
+  width:auto;
+  margin-bottom:1rem;
+  background-color:transparent
+}
+
+
+  .table td,
+  .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6
+  }
+
+  .table thead th {
+    text-align: left;
+    horiz-align: left;
+    border-bottom: 2px solid #dee2e6
+  }
+
+  .table tbody + tbody {
+    border-top: 2px solid #dee2e6
+  }
+
+  .table .table {
+    background-color: #fff
+  }
+
+  .table-sm td,
+  .table-sm th {
+    padding: .3rem
+  }
+
+@media screen and (max-width:620px) {
+  .col-3, .table, .table-bordered {
+    width:100%;
+     /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
