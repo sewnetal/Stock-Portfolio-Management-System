@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Project link: 
+Project link: https://it-teaching-abo-akademi.github.io/2018-interactive-web-apps-project-sewnetal/
 
 ## Available Scripts
 
