@@ -1,7 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Project link: https://it-teaching-abo-akademi.github.io/2018-interactive-web-apps-project-sewnetal/
-
 Overall purpose of the project:
 The customer needs an application to visualize the performance of stock portfolios.
 ## Naming Conventions and Definitions
@@ -30,6 +28,8 @@ c. User must be able to view the total value of the portfolio.
 a. User can remove stocks from a portfolio
 7. need to use the persistent local storage to save all data related to the created portfolios.
 (That is, after closing and opening the browser the portfolio should still be available) 
+
+Project link: https://it-teaching-abo-akademi.github.io/2018-interactive-web-apps-project-sewnetal/
  
 
 
