@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Project link: https://it-teaching-abo-akademi.github.io/2018-interactive-web-apps-project-sewnetal/
 
 Overall purpose of the project:
-The customer needs and application to visualize the performance of stock portfolios.
+The customer needs an application to visualize the performance of stock portfolios.
 ## Naming Conventions and Definitions
 - SPMS The working name of the software to be developed, short for Stock Portfolio Management
 System.
