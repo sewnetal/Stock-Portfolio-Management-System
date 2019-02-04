@@ -5,12 +5,12 @@ Project link: https://it-teaching-abo-akademi.github.io/2018-interactive-web-app
 Overall purpose of the project:
 The customer needs and application to visualize the performance of stock portfolios.
 ## Naming Conventions and Definitions
-# SPMS The working name of the software to be developed, short for Stock Portfolio Management
-# System.
-# Stock A stock in the stock market, has a symbol and a value. Portfolio A collection of stocks.
-# Symbol A short 3 or 4 letter identifier for a stock. (for example, NOK for Nokia, or MSFT for Microsoft)
-## Functional Requirements of SPMS
-## The web application should fulfil the following requirements:
+### SPMS The working name of the software to be developed, short for Stock Portfolio Management
+### System.
+### Stock A stock in the stock market, has a symbol and a value. Portfolio A collection of stocks.
+### Symbol A short 3 or 4 letter identifier for a stock. (for example, NOK for Nokia, or MSFT for Microsoft)
+#### Functional Requirements of SPMS
+#### The web application should fulfil the following requirements:
 1. Create a portfolio (there can be multiple portfolios) 
 a. User can create a portfolio
 b. User should be able to enter the portfolio name
